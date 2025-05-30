@@ -35,5 +35,5 @@ jobs:
             -retry=0 \
             -testSuitePath="Test Suites/google" \
             -executionProfile="default" \
-            -browserType="Chrome" \
+            -browserType="ChromeHeadless" \
             -apiKey="${{ secrets.KATALON_API_KEY }}"
